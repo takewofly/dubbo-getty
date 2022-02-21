@@ -2,8 +2,8 @@
 
  *a netty like asynchronous network I/O library*
 
-[![Build Status](https://travis-ci.org/dubbogo/getty.svg?branch=master)](https://travis-ci.org/dubbogo/getty)
-[![codecov](https://codecov.io/gh/dubbogo/getty/branch/master/graph/badge.svg)](https://codecov.io/gh/dubbogo/getty)
+[![Build Status](https://app.travis-ci.com/takewofly/dubbo-getty.svg?branch=ci)](https://app.travis-ci.com/takewofly/dubbo-getty)
+[![codecov](https://codecov.io/gh/takewofly/dubbo-getty/branch/ci/graph/badge.svg)](https://codecov.io/gh/dubbogo/getty)
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/dubbogo/getty?tab=doc)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dubbogo/getty)](https://goreportcard.com/report/github.com/dubbogo/getty)
 ![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)
