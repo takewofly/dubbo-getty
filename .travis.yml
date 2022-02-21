@@ -14,7 +14,6 @@ install: true
 script:
   # license-check
   - go fmt ./... && [[ -z `git status -s` ]]
-  - /tmp/tools/license/license-header-checker -v -a -r -i vendor  /tmp/tools/license/license.txt . go  && [[ -z `git status -s` ]]
   - go mod vendor && go test $(go list ./... | grep -v vendor | grep -v demo) -coverprofile=coverage.txt -covermode=atomic
 
 after_success:
